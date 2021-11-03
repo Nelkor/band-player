@@ -1,0 +1,22 @@
+.sound-item {
+  display: flex;
+  height: 72px;
+  margin: 6px;
+
+  .sounds-info {
+    padding: 0 10px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .date {
+    margin: 0;
+  }
+
+  img {
+    width: 128px;
+    height: 72px;
+  }
+}

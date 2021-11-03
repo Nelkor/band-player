@@ -1,19 +1,9 @@
-declare module '*.jpg' {
-  const text: string
+declare module '*.vue' {
+  import type { Component } from 'vue'
 
-  export default text
-}
+  const component: Component
 
-declare module '*.png' {
-  const text: string
-
-  export default text
-}
-
-declare module '*.webp' {
-  const text: string
-
-  export default text
+  export default component
 }
 
 declare module '*.svg' {

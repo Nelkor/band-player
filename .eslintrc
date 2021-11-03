@@ -149,6 +149,7 @@
       "files": ["**/*.vue"],
       "extends": ["plugin:vue/vue3-essential"],
       "rules": {
+        "@typescript-eslint/explicit-module-boundary-types": 0,
         "vue/html-self-closing": [
           "error",
           {
